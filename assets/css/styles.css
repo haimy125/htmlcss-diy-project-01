@@ -471,6 +471,12 @@ button {
     opacity: 0.35;
     object-fit: cover;
     background: #d0efed;
+    transition: 0.25s;
+}
+
+.course__img:hover {
+    opacity: 1;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
 }
 
 .course__info {
