@@ -80,9 +80,11 @@ button {
 
 .section-heading {
     color: #0d1111;
-    font-size: 6.2rem;
+    font-size: 4.2rem;
     font-weight: 700;
     line-height: 1.16; /* 116.129% */
+    margin: 18px 0;
+    max-width: 577px;
 }
 
 .section-desc {
@@ -90,6 +92,14 @@ button {
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 1.78; /* 177.778% */
+    max-width: 590px;
+}
+
+.section-title {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: normal;
 }
 
 /* ================ Header ================ */
@@ -173,6 +183,7 @@ button {
 }
 
 .hero__heading {
+    font-size: 6.2rem;
     margin-bottom: 46px;
 }
 
@@ -385,4 +396,38 @@ button {
     color: #fff;
     font-size: 1rem;
     font-weight: 500;
+}
+
+/* ================ Feature ================ */
+.feature {
+    padding: 130px 0;
+}
+
+.feature__body {
+    max-width: 87.5%;
+}
+
+.feature__list {
+    display: grid;
+    grid-template-columns: 16% 1fr 1fr;
+    column-gap: 200px;
+    margin-top: 80px;
+}
+
+.feature__img {
+    width: 102px;
+    height: 106px;
+}
+
+.feature__title {
+    margin: 26px 0 16px;
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.feature__desc {
+    font-size: 1.6rem;
+    font-weight: 400;
 }
