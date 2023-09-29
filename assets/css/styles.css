@@ -732,3 +732,75 @@ button {
 .cta__btn {
     margin-right: 154px;
 }
+
+/* ================ Footer ================ */
+.footer {
+    padding-top: 131px;
+}
+
+.footer__body {
+    display: flex;
+}
+
+.footer__logo {
+    width: 25%;
+}
+
+.footer__list-item {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 130px;
+    margin-bottom: 80px;
+}
+
+.footer__column {
+    flex-grow: 1;
+}
+
+.footer__heading {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.footer__item-link {
+    display: inline-block;
+    color: #535353;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 18px;
+    transition: 0.25s;
+}
+
+.footer__item-link:hover {
+    color: #070707;
+}
+
+.footer__icon-size {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: #fff;
+    margin-right: 9px;
+}
+
+.footer__icon {
+    display: inline-block;
+}
+
+.footer__copyright {
+    text-align: center;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 50px;
+}
