@@ -545,3 +545,22 @@ button {
     margin-top: 18px;
     display: flex;
 }
+
+/* ================ Statistic ================ */
+.statistic {
+    display: flex;
+    padding: 265px 0;
+}
+
+.stat__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 862px;
+}
+
+.stat__heading {
+    font-size: 6.2rem;
+    margin-bottom: 11px;
+}
