@@ -160,6 +160,12 @@ button {
     outline: 1px solid #1ebfc1;
 }
 
+.logo-icon {
+    width: 127px;
+    height: 37px;
+    object-fit: cover;
+}
+
 /* ================ Hero ================ */
 .hero {
     margin-top: 42px;
