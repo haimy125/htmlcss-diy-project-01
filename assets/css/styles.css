@@ -718,3 +718,17 @@ button {
     width: 78px;
     height: 78px;
 }
+
+/* ================ Call To Action ================ */
+.cta {
+    background: #def6f5;
+    padding: 76px 0 88px;
+}
+.cta__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cta__btn {
+    margin-right: 154px;
+}
